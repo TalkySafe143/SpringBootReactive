@@ -1,13 +1,13 @@
-package edu.javeriana.react3;
+package edu.javeriana.taller3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class React3Application {
+public class Taller3Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(React3Application.class, args);
+		SpringApplication.run(Taller3Application.class, args);
 	}
 
 }

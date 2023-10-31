@@ -1,10 +1,10 @@
-package edu.javeriana.react3;
+package edu.javeriana.taller3;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class React3ApplicationTests {
+class Taller3ApplicationTests {
 
 	@Test
 	void contextLoads() {
