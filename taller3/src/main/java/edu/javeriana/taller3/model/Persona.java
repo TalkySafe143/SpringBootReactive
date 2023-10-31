@@ -22,6 +22,6 @@ public class Persona {
     private String correo;
     private char rol;
 
-    @OneToMany(mappedBy = "persona")
-    private Set<Curso> cursos;
+    //@OneToMany(mappedBy = "persona")
+    //private Set<Curso> cursos;
 }

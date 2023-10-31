@@ -13,9 +13,8 @@ public class PersonaService {
     @Autowired
     private PersonaRepositorio personaRepositorio;
 
-    public Mono<Persona> create(Mono<Persona> data) {
-        System.out.println(data);
-        return personaRepositorio.findById(1);
+    public Mono<Persona> create(Persona data) {
+        return personaRepositorio.save(data);
     }
 
     public Flux<Persona> getAll() {
