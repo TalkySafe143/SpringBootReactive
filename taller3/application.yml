@@ -3,9 +3,6 @@ spring:
     url: r2dbc:postgresql://localhost:5432/taller
     username: admin
     password: root
-springdoc:
-  swagger-ui:
-    path: /swagger-ui.html
 logging:
   level:
     org:

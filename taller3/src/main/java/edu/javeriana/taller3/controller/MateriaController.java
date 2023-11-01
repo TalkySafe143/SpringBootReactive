@@ -1,6 +1,7 @@
 package edu.javeriana.taller3.controller;
 import edu.javeriana.taller3.model.Materia;
 import edu.javeriana.taller3.service.MateriaService;
+import edu.javeriana.taller3.service.PersonaService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

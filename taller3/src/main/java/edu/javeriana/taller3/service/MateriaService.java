@@ -11,8 +11,9 @@ import reactor.core.publisher.Mono;
 public class MateriaService {
 
 
-    //@Autowired
+    @Autowired
     private MateriaRepositorio materiaRepositorio;
+
 
 
     public Mono<Materia> getOneMateria(Integer id) {
