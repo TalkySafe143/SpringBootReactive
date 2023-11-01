@@ -11,17 +11,16 @@ import java.util.Date;
 @Table(name = "curso")
 public class Curso {
 
-    @Id
     @ManyToOne
     @JoinColumn(name = "id")
     private Persona profesor_id;
 
-    @Id
     @ManyToOne
     @JoinColumn(name = "id")
     private Materia materia_id;
 
     @Id
+    @org.springframework.data.annotation.Id
     private String numero;
 
     @ManyToOne

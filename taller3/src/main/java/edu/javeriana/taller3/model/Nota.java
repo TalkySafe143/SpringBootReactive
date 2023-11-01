@@ -34,6 +34,6 @@ public class Nota {
     private Double valor;
     private Double procentaje;
 
-    @OneToMany(mappedBy = "nota")
-    private Set<Curso> cursos;
+    //@OneToMany(mappedBy = "nota")
+   // private Set<Curso> cursos;
 }

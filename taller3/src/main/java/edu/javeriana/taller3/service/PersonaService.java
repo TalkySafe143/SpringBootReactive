@@ -1,4 +1,4 @@
-package edu.javeriana.taller3.services;
+package edu.javeriana.taller3.service;
 
 import edu.javeriana.taller3.model.Persona;
 import edu.javeriana.taller3.repositorio.PersonaRepositorio;
@@ -19,6 +19,14 @@ public class PersonaService {
 
     public Flux<Persona> getAll() {
         return personaRepositorio.findAll();
+    }
+
+    public Mono<Persona> getOne(Integer id) {
+        return personaRepositorio.findById(id);
+    }
+
+    public Mono<Void> deleteOne(Integer id) {
+        return personaRepositorio.deleteById(id);
     }
 
 }
